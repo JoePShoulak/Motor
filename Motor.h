@@ -15,7 +15,7 @@ public:
   void setForward();
   void setBackward();
 
-  // private:
+private:
   int _pinEN;
   int _pinIN1;
   int _pinIN2;

@@ -19,7 +19,7 @@ void Motor::begin()
 
 void Motor::stop()
 {
-  digitalWrite(_pinEN, LOW);
+  this->setSpeed(0);
 }
 
 void Motor::setDir(bool forward)
@@ -30,12 +30,12 @@ void Motor::setDir(bool forward)
 
 void Motor::setForward()
 {
-  this->setDir(HIGH);
+  this->setDir(true);
 }
 
 void Motor::setBackward()
 {
-  this->setDir(LOW);
+  this->setDir(false);
 }
 
 void Motor::setSpeed(int speed)
