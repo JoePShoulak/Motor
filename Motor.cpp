@@ -1,9 +1,5 @@
 #include "Motor.h"
 
-Motor::Motor()
-{
-}
-
 Motor::Motor(int pinEN, int pinIN1, int pinIN2)
 {
   _pinEN = pinEN;

@@ -6,7 +6,6 @@
 class Motor
 {
 public:
-  Motor();
   Motor(int pinEN, int pinIN1, int pinIN2);
   void begin();
 
